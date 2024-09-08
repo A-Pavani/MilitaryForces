@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://t4.ftcdn.net/jpg/06/70/05/71/360_F_670057157_ru2QhukixXgzrCYYbvUXTE9aFdxdI5Lw.jpg);
+   background-size: cover;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    /* float: left; */
+    padding-bottom: 0px;
+    padding-left: 383px;
+    
+}
+.container{
+    width: 35%;
+    height: 50%;
+    color: rgb(1, 1, 1);
+    font-size: 25px;
+    padding-left: 46px;
+    padding-right: 80px;
+    padding-top: 10px;
+    margin: 27px 312px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.box-1{
+    width: 349px;
+    height: 27px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.box-2{
+    width: 349px;
+    height: 27px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.box-3{
+    width: 349px;
+    height: 27px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.box-4{
+    width: 349px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.box-5{
+    width: 349px;
+    height: 27px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.btnn{
+    width: 201px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
