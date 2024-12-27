@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://t4.ftcdn.net/jpg/06/70/05/71/360_F_670057157_ru2QhukixXgzrCYYbvUXTE9aFdxdI5Lw.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    animation: backgroundAnimation 15s infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {background-position: center;}
+    50% {background-position: top;}
+    100% {background-position: center;}
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 80px;
+    font-family: Arial;
+    padding-left: 25px;
+    margin-top: 19px;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 75px;
+    font-family: Arial;
+    padding-left: 25px;
+    margin-top: 19px;
+}
+
+.menu1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 329px;
+    margin-top: 29px;
+}
+
+.menu1 li {
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu1 li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s ease;
+}
+
+.menu1 li a:hover {
+    color: #ff7200;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 30px;
+    color: black;
+    margin-top: -44px;
+    animation: slideIn 1s ease-out;
+}
+
+.menu2 li {
+    margin-right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu2 li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s ease;
+}
+
+.menu2 li a:hover {
+    color: #ff7200;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: x-large;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 65px;
+    padding-left: 20px;
+    margin-top: 6%;
+    letter-spacing: 2px;
+    animation: fadeInDown 1s ease-out;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 65px;
+}
+
+.form {
+    width: 335px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -25px;
+    left: 850px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    padding-left: 10px;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.form h2 {
+    width: 294px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 314px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 43px;
+    font-family: sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 314px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
